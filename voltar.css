@@ -1,0 +1,28 @@
+.btn-voltar {
+    padding: 10px 20px;
+    background-color: #ffd000;
+    color: rgb(0, 0, 0);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    display: inline-flex;
+    align-items: center;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+    position: fixed; 
+    top: 3%; 
+    left: 20px; 
+    
+    z-index: 1000; /
+  }
+  
+  .btn-voltar:hover {
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+  }
+  
+  .btn-voltar span {
+    margin-left: 5px;
+  }
+  

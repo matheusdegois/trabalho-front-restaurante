@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reserva de Mesa</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="voltar.css">
+    <script src="script.js"></script>
+    
+</head>
+<body>
+    <body>
+        <button onclick="window.history.back()" class="btn-voltar">
+            &#8592;
+        </button>  
+
+    <form class="form">
+        <p class="title">Reserva de Mesa</p>
+        <p class="message">Reserve agora e garanta sua mesa no nosso restaurante.</p>
+        
+        <label>
+            <input required="" placeholder="" type="text" class="input">
+            <span>Nome</span>
+        </label>
+        
+        <label>
+            <input required="" placeholder="" type="text" class="input">
+            <span>Sobrenome</span>
+        </label>
+        
+        <label>
+            <select required class="input">
+                <option value="" disabled selected>Selecione o número da mesa</option>
+            </select>
+            <span>Número da Mesa</span>
+        </label>
+        
+        <label>
+            <input required="" placeholder="" type="time" class="input">
+            <span>Horário</span>
+        </label>
+        
+        <label>
+            <input required="" placeholder="" type="number" class="input" min="1" max="20">
+            <span>Quantidade de Pessoas</span>
+        </label>
+        
+        <button class="submit">Confirmar Reserva</button>
+    </form>
+</body>
+</html>
